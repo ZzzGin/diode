@@ -1,8 +1,16 @@
+import React from "react";
+import { Authenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+
 function App() {
   return (
-    <div className="App">
-      hello world.
-    </div>
+    <Authenticator>
+      {({ signOut, user }) => (
+        <div className="App">
+          hello world! { user.username }
+        </div>
+      )}
+    </Authenticator>
   );
 }
 
