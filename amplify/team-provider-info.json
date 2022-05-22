@@ -10,6 +10,11 @@
       "StackName": "amplify-diode-dev-145330",
       "StackId": "arn:aws:cloudformation:us-west-2:583353371784:stack/amplify-diode-dev-145330/9f42de80-da19-11ec-8483-067e40931a89",
       "AmplifyAppId": "d3pq3bg1mrhpp5"
+    },
+    "categories": {
+      "auth": {
+        "diode982c67f8": {}
+      }
     }
   }
 }

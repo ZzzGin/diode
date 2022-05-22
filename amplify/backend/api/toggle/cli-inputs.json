@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "toggle",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/jingqi/Documents/GitHub/diode/amplify/backend/api/toggle/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authdiode982c67f8"
+    }
+  }
+}
