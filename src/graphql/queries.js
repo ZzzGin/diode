@@ -6,6 +6,7 @@ export const getDiode = /* GraphQL */ `
     getDiode(id: $id) {
       id
       state
+      owner
       createdAt
       updatedAt
     }
@@ -21,6 +22,7 @@ export const listDiodes = /* GraphQL */ `
       items {
         id
         state
+        owner
         createdAt
         updatedAt
       }

@@ -9,6 +9,7 @@ export const createDiode = /* GraphQL */ `
     createDiode(input: $input, condition: $condition) {
       id
       state
+      owner
       createdAt
       updatedAt
     }
@@ -22,6 +23,7 @@ export const updateDiode = /* GraphQL */ `
     updateDiode(input: $input, condition: $condition) {
       id
       state
+      owner
       createdAt
       updatedAt
     }
@@ -35,6 +37,7 @@ export const deleteDiode = /* GraphQL */ `
     deleteDiode(input: $input, condition: $condition) {
       id
       state
+      owner
       createdAt
       updatedAt
     }
