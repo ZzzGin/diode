@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import '@aws-amplify/ui-react/styles.css';
 import "./App.css";
-import { API, graphqlOperation, Auth } from 'aws-amplify';
+import { API, graphqlOperation } from '@aws-amplify/api';
+import { Auth } from '@aws-amplify/auth';
 import { listDiodes } from './graphql/queries';
 import { createDiode, updateDiode } from './graphql/mutations';
 import { onUpdateDiode } from './graphql/subscriptions';
